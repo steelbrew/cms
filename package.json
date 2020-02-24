@@ -1,0 +1,33 @@
+{
+  "name": "steelbrew-cms",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Thomas Fauskanger <thomasfauskanger@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^1.148.5",
+    "@sanity/components": "^1.148.5",
+    "@sanity/core": "^1.148.5",
+    "@sanity/default-layout": "^1.148.5",
+    "@sanity/default-login": "^1.148.1",
+    "@sanity/desk-tool": "^1.148.6",
+    "@sanity/vision": "^1.148.1",
+    "prop-types": "^15.6",
+    "react": "^16.2",
+    "react-dom": "^16.2"
+  },
+  "devDependencies": {},
+  "include": ["./node_modules/@sanity/base/types/**/*.ts", "./**/*.ts", "./**/*.tsx"],
+  "compilerOptions": {
+    "jsx": "react"
+  }
+}
